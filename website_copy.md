@@ -27,7 +27,7 @@
 - **Full Asset Ownership:** Codebase, domain, and servers belong 100% to your institution.
 
 ### Primary Actions
-- **Primary CTA:** `[ Chat with a Senior Advisor on WhatsApp → ]` *(URL: https://wa.me/2348154844686; displayed number: 08154844686)*
+- **Primary CTA:** `[ Chat with a Senior Advisor on WhatsApp → ]` *(URL: https://wa.me/2348126793813; displayed number: 08126793813)*
 - **Secondary CTA:** `[ Submit Brief / Request Proposal ]`
 
 ---
@@ -143,7 +143,7 @@ We transfer 100% of code, server access, and intellectual property to your team,
 Good afternoon. Select your preferred method of communication below to discuss your project scope or request an initial assessment.
 
 ### Call-To-Action Options
-1. **WhatsApp Direct Line:** `[ Chat with Us on WhatsApp (Instant Response) → ]` *(08154844686)*
+1. **WhatsApp Direct Line:** `[ Chat with Us on WhatsApp (Instant Response) → ]` *(08126793813)*
 2. **Email Brief Submission:** `[ Send Us Your Project Brief (Response within 4 hours) ]` *(info@urah.com.ng)*
 
 ---

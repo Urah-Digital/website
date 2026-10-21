@@ -1,0 +1,119 @@
+{
+  "announcements": [],
+  "testimonials": [],
+  "articles": [
+    {
+      "slug": "what-a-high-trust-school-website-should-answer",
+      "category": "Digital trust",
+      "title": "What a high-trust school website should answer first",
+      "excerpt": "Before a parent books a visit, a school website should make the essentials easy to find: its approach, its people, and the next step.",
+      "readTime": "2 min read",
+      "publishedAt": "2026-10-21",
+      "sections": [
+        {
+          "heading": "A website is part of the first visit",
+          "paragraphs": [
+            "For many families, the first introduction to a school happens on a phone screen. They may be comparing options between other commitments, or checking a recommendation before deciding whether to arrange a visit. A useful school website respects that moment: it answers the first questions plainly and makes a next step easy to take.",
+            "The aim is not to make every page say more. It is to make the information parents need straightforward to locate, understand, and verify."
+          ]
+        },
+        {
+          "heading": "Start with the questions families actually ask",
+          "paragraphs": [
+            "A clear overview should explain the age groups or year levels served, the school's educational approach, and what a typical school day includes. Admissions information should set out how to enquire, what the process involves, and where families can get current details about fees and availability.",
+            "People matter as much as programmes. Introduce the leadership and teaching team with accurate roles and current biographies. Describe facilities with specific, factual captions rather than broad claims. If a detail changes often, identify the right contact for the latest information instead of leaving stale content online."
+          ]
+        },
+        {
+          "heading": "Make the next step unmistakable",
+          "paragraphs": [
+            "A parent who is ready to ask a question should not have to search through several pages to find a phone number or enquiry route. Keep contact details consistent, label each action clearly, and make phone and WhatsApp links work well on mobile. A short admissions enquiry form can help, provided someone is responsible for responding to it.",
+            "Trust comes from the whole experience: accurate information, readable pages, working links, and a considered response after someone gets in touch. A website cannot replace a school visit, but it can help a family decide that a visit is worthwhile."
+          ]
+        },
+        {
+          "heading": "A practical review",
+          "paragraphs": [
+            "Ask a person unfamiliar with the school to find the admissions process, the location, the age groups served, and a way to speak with someone. Watch where they pause. Those pauses are more useful design feedback than adding another banner or animation."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "a-website-project-brief-that-keeps-work-clear",
+      "category": "Project planning",
+      "title": "A website project brief that keeps the work clear",
+      "excerpt": "A focused brief helps a team agree on audiences, priorities, ownership, and decisions before design and development begin.",
+      "readTime": "2 min read",
+      "publishedAt": "2026-10-14",
+      "sections": [
+        {
+          "heading": "Describe the job, not just the page count",
+          "paragraphs": [
+            "A useful website brief starts with the reason for the project. What is difficult for a visitor today? What should become easier? Which audiences matter most, and what should each person be able to do after visiting?",
+            "Page counts and feature lists help define scope, but they do not explain priorities. Two projects with the same number of pages can require very different research, content, integrations, and review."
+          ]
+        },
+        {
+          "heading": "Name the decision-makers and materials",
+          "paragraphs": [
+            "Identify who provides content, who approves design, and who gives final sign-off. Agreeing on one decision-maker for each stage prevents conflicting feedback and helps reviews stay focused.",
+            "List the materials already available: brand guidelines, photography, service descriptions, staff biographies, legal notices, and access to the existing domain or hosting. Mark what is missing and who will provide it. Do not assume that material on an old website is current or approved for reuse."
+          ]
+        },
+        {
+          "heading": "Make scope and milestones reviewable",
+          "paragraphs": [
+            "For each deliverable, describe what completion means. A contact form might include its fields, destination, confirmation message, and who tests it. A service page might need approved copy, a clear enquiry action, and review on mobile.",
+            "Set dates for providing content and returning feedback, not only for launch. Regular staging reviews give stakeholders a concrete way to check progress while there is still time to make decisions."
+          ]
+        },
+        {
+          "heading": "Agree on ownership before launch",
+          "paragraphs": [
+            "The brief should state who owns the domain, hosting account, source files, and third-party subscriptions after handover. It should also name the person responsible for routine content updates and the process for requesting future changes.",
+            "A short, specific brief is more useful than a long document full of aspirations. It gives everyone a shared reference for what is being built, how it will be reviewed, and what happens next."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "professional-services-website-due-diligence",
+      "category": "Professional services",
+      "title": "A due-diligence checklist for professional-services websites",
+      "excerpt": "A practical review of the details that help prospective clients understand a firm's expertise, people, and route to an initial conversation.",
+      "readTime": "2 min read",
+      "publishedAt": "2026-10-07",
+      "sections": [
+        {
+          "heading": "Help visitors understand the practice",
+          "paragraphs": [
+            "A prospective client should be able to understand what the firm does without decoding internal terminology. Describe services in the language clients use, explain who they are for, and make the boundaries of each service clear.",
+            "Avoid implying that every matter is suitable or that an outcome is assured. A precise description of the firm's work is more useful than an expansive claim that cannot be substantiated."
+          ]
+        },
+        {
+          "heading": "Make expertise verifiable",
+          "paragraphs": [
+            "Introduce the people clients may work with. Use current names, roles, qualifications, and biographies that have been checked and approved. Where professional registration or membership is relevant, link to a source visitors can verify rather than relying on a badge alone.",
+            "If the firm shares matters or case examples, confirm that publication is permitted and that the description is accurate. Protect client confidentiality and distinguish illustrative examples from actual engagements."
+          ]
+        },
+        {
+          "heading": "Show visitors how an enquiry works",
+          "paragraphs": [
+            "Explain how to request an initial conversation, what information is useful to provide, and what response to expect. Keep the contact method visible and test it regularly. If the firm needs to check for conflicts before discussing details, say so and invite visitors not to submit sensitive information through an unsecured form.",
+            "A well-labelled enquiry route helps both sides. It sets expectations for the visitor and gives the firm a clearer starting point for responding."
+          ]
+        },
+        {
+          "heading": "Review the experience on mobile",
+          "paragraphs": [
+            "Open the site on a phone and check that the navigation, biographies, service details, and contact links remain easy to use. Review page speed and broken links, and confirm that every page has a clear heading and readable text.",
+            "A trustworthy digital presence is maintained, not simply launched. Assign ownership for checking contact details, staff changes, and published material so the website remains an accurate representation of the firm."
+          ]
+        }
+      ]
+    }
+  ]
+}

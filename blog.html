@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights — URAH DIGITAL</title>
+    <meta name="description" content="Practical guidance on building clear, trustworthy websites for schools, professional firms, and established brands.">
+    <link rel="icon" type="image/svg+xml" href="D/logoV.svg">
+    <meta name="theme-color" content="#0F0F0F">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        obsidian: { base: '#0F0F0F', surface: '#18181B', border: '#27272A' },
+                        offwhite: { base: '#FAF9F6', border: '#E4E4E7', textDark: '#18181B', textMuted: '#52525B' },
+                        brass: { DEFAULT: '#C8A962', light: '#D8BE7E' }
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'Georgia', 'serif'],
+                        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'Fira Code', 'Consolas', 'monospace']
+                    }
+                }
+            }
+        };
+    </script>
+    <style>
+        a:focus-visible { outline: 2px solid #D8BE7E; outline-offset: 4px; }
+        ::selection { background: #C8A962; color: #0F0F0F; }
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
+        }
+    </style>
+    <script src="site-content.js" defer></script>
+</head>
+<body class="bg-obsidian-base font-sans text-zinc-300 antialiased">
+    <header class="sticky top-0 z-50 border-b border-obsidian-border bg-obsidian-base/95">
+        <div class="mx-auto flex h-16 max-w-7xl items-center justify-between gap-2 px-3 sm:gap-4 sm:px-6 lg:px-8">
+            <a href="index.html" class="flex shrink-0 items-center gap-2 sm:gap-3" aria-label="URAH DIGITAL home">
+                <img src="D/logoV.svg" alt="" aria-hidden="true" class="h-9 w-8">
+                <span class="font-serif text-sm font-bold tracking-widest text-white sm:text-base">URAH DIGITAL</span>
+            </a>
+            <nav aria-label="Main navigation" class="flex items-center gap-2 font-mono text-[9px] uppercase tracking-wider text-zinc-400 sm:gap-6 sm:text-xs">
+                <a href="index.html" class="hidden transition-colors hover:text-white sm:block">Home</a>
+                <a href="blog.html" aria-current="page" class="text-brass-light">Insights</a>
+                <a href="index.html#contact" class="rounded-sm bg-brass px-2 py-2 font-semibold text-obsidian-base transition-colors hover:bg-brass-light sm:px-3">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="border-b border-obsidian-border bg-obsidian-base py-16 sm:py-20">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <nav aria-label="Breadcrumb" class="mb-8 font-mono text-[10px] uppercase tracking-widest text-zinc-500">
+                    <a href="index.html" class="hover:text-white">Home</a>
+                    <span aria-hidden="true" class="mx-2 text-brass">/</span>
+                    <span class="text-zinc-300">Insights</span>
+                </nav>
+                <div class="max-w-3xl">
+                    <h1 class="font-serif text-4xl font-semibold leading-tight text-white sm:text-5xl">Insights for building trust online.</h1>
+                    <p class="mt-5 max-w-2xl text-base leading-relaxed text-zinc-400 sm:text-lg">
+                        Practical perspectives on clear websites, thoughtful project planning, and the details that help serious organizations earn confidence.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="min-h-[50vh] border-b border-obsidian-border py-14 sm:py-20">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div id="blog-articles" class="max-w-6xl" role="status" aria-live="polite">
+                    <p class="text-sm text-zinc-500">Loading insights…</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="border-t border-obsidian-border py-10">
+        <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-5 px-4 text-center sm:flex-row sm:px-6 sm:text-left lg:px-8">
+            <a href="index.html" class="font-mono text-[10px] uppercase tracking-wider text-zinc-500 hover:text-zinc-300">URAH DIGITAL © 2026</a>
+            <div class="flex flex-wrap items-center justify-center gap-5 font-mono text-[10px] uppercase tracking-wider text-zinc-500">
+                <a href="blog.html" class="hover:text-zinc-300">Insights</a>
+                <a href="index.html#contact" class="hover:text-zinc-300">Contact</a>
+                <a href="mailto:info@urah.com.ng" class="hover:text-zinc-300">info@urah.com.ng</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

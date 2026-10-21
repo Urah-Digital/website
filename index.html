@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest" defer></script>
+    <script src="site-content.js" defer></script>
     
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -176,6 +177,7 @@
             <!-- Navigation Links -->
             <nav class="flex items-center gap-6 font-mono text-xs text-zinc-400 uppercase tracking-wider">
                 <a href="#stance" class="hidden sm:block hover:text-white transition-colors">Stance</a>
+                <a href="blog.html" class="hidden sm:block hover:text-white transition-colors">Insights</a>
                 <a href="#audiences" class="hidden sm:block hover:text-white transition-colors">Sectors</a>
                 <a href="#framework" class="hidden sm:block hover:text-white transition-colors">Framework</a>
                 <a href="#tiers" class="hover:text-white transition-colors">Tiers</a>
@@ -185,6 +187,7 @@
             </nav>
         </div>
     </header>
+    <div id="announcement-container" hidden></div>
 
     <!-- SECTION 1 & 2: HERO -->
     <section class="relative pt-20 pb-24 md:pt-28 md:pb-32 border-b border-obsidian-border hero-wallpaper overflow-hidden">
@@ -231,7 +234,7 @@
 
             <!-- Primary Actions -->
             <div class="hero-enter hero-enter-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
-                <a href="https://wa.me/2348154844686" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center justify-center gap-3 bg-brass hover:bg-brass-light hover:-translate-y-0.5 active:translate-y-0 text-obsidian-base font-semibold px-6 py-3.5 rounded-sm transition-all duration-200 text-sm uppercase tracking-wider font-mono">
+                <a href="https://wa.me/2348126793813" target="_blank" rel="noopener noreferrer" class="group inline-flex items-center justify-center gap-3 bg-brass hover:bg-brass-light hover:-translate-y-0.5 active:translate-y-0 text-obsidian-base font-semibold px-6 py-3.5 rounded-sm transition-all duration-200 text-sm uppercase tracking-wider font-mono">
                     <span>Chat with a Senior Advisor on WhatsApp</span>
                     <span class="icon-mark text-obsidian-base group-hover:translate-x-1" aria-hidden="true"><i data-lucide="arrow-up-right" class="h-4 w-4"></i></span>
                 </a>
@@ -569,6 +572,30 @@
         </div>
     </section>
 
+    <section id="testimonials-section" class="border-y border-obsidian-border bg-obsidian-base py-16 md:py-20" aria-labelledby="testimonials-heading" hidden>
+        <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <h2 id="testimonials-heading" class="mb-10 font-serif text-3xl font-semibold text-white">What clients say</h2>
+            <div id="testimonials-list"></div>
+        </div>
+    </section>
+
+    <section id="insights" class="border-y border-offwhite-border bg-offwhite-base py-16 text-offwhite-textDark md:py-20" aria-labelledby="insights-heading">
+        <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <div class="mb-10 flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
+                <div class="max-w-2xl">
+                    <h2 id="insights-heading" class="font-serif text-3xl font-semibold sm:text-4xl">Insights for a more trusted web.</h2>
+                    <p class="mt-4 text-sm leading-relaxed text-offwhite-textMuted sm:text-base">Practical perspectives on clear websites, thoughtful project planning, and the details that help serious organizations earn confidence.</p>
+                </div>
+                <a href="blog.html" class="group inline-flex shrink-0 items-center gap-2 font-mono text-xs uppercase tracking-wider text-zinc-700 transition-colors hover:text-obsidian-base">
+                    All insights <span class="text-brass transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
+                </a>
+            </div>
+            <div id="home-articles" class="max-w-5xl" role="status" aria-live="polite">
+                <p class="text-sm text-zinc-500">Loading insights…</p>
+            </div>
+        </div>
+    </section>
+
     <!-- SECTION 8: FINAL CONVERSION SECTION -->
     <section id="contact" class="py-20 md:py-28 bg-obsidian-base grid-bg-dark">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -588,7 +615,7 @@
             <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-xl mx-auto">
                 
                 <!-- WhatsApp Option -->
-                <a href="https://wa.me/2348154844686" target="_blank" rel="noopener noreferrer" class="group w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brass hover:bg-brass-light hover:-translate-y-0.5 text-obsidian-base font-mono font-semibold px-6 py-4 rounded-sm transition-all duration-200 text-xs uppercase tracking-wider">
+                <a href="https://wa.me/2348126793813" target="_blank" rel="noopener noreferrer" class="group w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brass hover:bg-brass-light hover:-translate-y-0.5 text-obsidian-base font-mono font-semibold px-6 py-4 rounded-sm transition-all duration-200 text-xs uppercase tracking-wider">
                     <i data-lucide="message-circle" class="h-4 w-4" aria-hidden="true"></i>
                     <span>Chat on WhatsApp (Instant)</span>
                     <i data-lucide="arrow-up-right" class="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden="true"></i>
@@ -624,6 +651,7 @@
                 <a href="#framework" class="hover:text-zinc-300 transition-colors duration-200">Milestone Framework</a>
                 <a href="#audiences" class="hover:text-zinc-300 transition-colors duration-200">Target Sectors</a>
                 <a href="#tiers" class="hover:text-zinc-300 transition-colors duration-200">Offer Architecture</a>
+                <a href="blog.html" class="hover:text-zinc-300 transition-colors duration-200">Insights</a>
                 <a href="#contact" class="hover:text-zinc-300 transition-colors duration-200">Direct Contact</a>
             </div>
 
